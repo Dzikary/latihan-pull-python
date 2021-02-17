@@ -6,16 +6,16 @@ class BioData:
     self.agama = agama
    
    def printNama(self):
-    print(F"Nama anda: {self.nama}")
+    print(f"Nama anda: {self.nama}")
     
    def printKelas(kelas):
-    print(F"Kelas anda: {kelas}")
+    print(f"Kelas anda: {self.kelas}")
 
  def printKelas(umur):
-    print(f"Umur anda: {umur}")
+    print(f"Umur anda: {self.umur}")
 
  def printKelas(Agama):
-    print(f"Kelas anda: {agama}")
+    print(f"Kelas anda: {self.agama}")
    
 Ahmad = BioData("Ahmad Borat", "12 IPA 1", "18 Tahun", "Islam")
 Ahmad.printNama()
